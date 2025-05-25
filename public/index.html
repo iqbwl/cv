@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Iqbal Birrul Walidain</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 40px 20px;
+    }
+
+    .cv-container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 30px 40px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    }
+
+    .cv-header {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-bottom: 25px;
+    }
+
+    .cv-header-left {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .profile-photo {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid #2980b9;
+    }
+
+    .cv-header-left h1 {
+      font-size: 2em;
+      color: #2c3e50;
+      margin: 0;
+    }
+
+    .cv-header-right {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      font-size: 0.95em;
+      color: #555;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .contact-item i {
+      color: #2980b9;
+      width: 18px;
+      text-align: center;
+    }
+
+    .contact-item a {
+      text-decoration: none;
+      color: #555;
+    }
+
+    .contact-item a:hover {
+      text-decoration: underline;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #ddd;
+      margin: 20px 0 30px;
+    }
+
+    section {
+      margin-bottom: 35px;
+    }
+
+    h2 {
+      font-size: 1.3em;
+      color: #2980b9;
+      margin-bottom: 12px;
+      border-bottom: 2px solid #2980b9;
+      padding-bottom: 5px;
+    }
+
+    ul, ol {
+      padding-left: 20px;
+    }
+
+    ul.dashed {
+      list-style-type: disc;
+    }
+
+    ol.numbered {
+      list-style-type: decimal;
+    }
+
+    ul li, ol li {
+      margin-bottom: 12px;
+      line-height: 1.6;
+    }
+
+    p {
+      line-height: 1.6;
+      margin: 0;
+    }
+
+    strong {
+      color: #2c3e50;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    footer hr {
+      width: 60%;
+      margin: 20px auto;
+      border: none;
+      border-top: 1px solid #ccc;
+    }
+
+    footer p {
+      font-size: 0.85em;
+      color: #999;
+    }
+
+    @media (max-width: 600px) {
+      .cv-header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .cv-header-right {
+        margin-top: 20px;
+      }
+    }
+
+    @media print {
+      body {
+        background-color: #fff;
+        padding: 0;
+      }
+      .cv-container {
+        box-shadow: none;
+        border: none;
+        margin: 0;
+        padding: 0;
+      }
+      footer {
+        page-break-after: avoid;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="cv-container">
+    <div class="cv-content">
+      <header class="cv-header">
+        <div class="cv-header-left">
+          <img src="https://iqbwl.github.io/img/priv/DSC_0035.JPG" alt="Iqbal Birrul Walidain" class="profile-photo" />
+          <h1>Iqbal Birrul Walidain</h1>
+        </div>
+        <div class="cv-header-right">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:john.doe@example.com">iqbwl@red.my.id</a>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <a href="tel:+6287864444401">+62 878-6444-4401</a>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-whatsapp"></i>
+            <a href="https://wa.me/+6287864444401" target="_blank">+62 878-6444-4401 (WhatsApp)</a>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-linkedin"></i>
+            <a href="https://linkedin.com/in/iqbwl" target="_blank">linkedin.com/in/iqbwl</a>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Cilacap, Central Java - ID</span>
+          </div>
+        </div>
+      </header>
+
+      <hr />
+
+      <main>
+        <section>
+          <h2>Professional Summary</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </section>
+
+        <section>
+          <h2>Work Experience</h2>
+          <ul class="dashed">
+            <li>
+              <strong>Technical Support Consultant</strong> — PT Infinys System Indonesia (InfinysCloud)<br />
+              <em>Mar 2021 – Present</em><br />
+              Technical Support Consultant for managed service InfinysCloud.
+            </li>
+
+            <li>
+              <strong>Technical Support</strong> — PT Infinys System Indonesia (CloudKilat)<br />
+              <em>Oct 2018 – Mar 2021</em><br />
+              Technical Support for cloud hosting service CloudKilat.
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Education</h2>
+          <ul>
+            <li>
+              Teknik Komputer dan Jaringan<br />
+              SMK Tarbiyatul Islam Kawunganten, 2014 – 2017
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Skills</h2>
+          <ul class="dashed">
+            <li>Soon</li>
+          </ul>
+        </section>
+      </main>
+    </div>
+
+    <footer>
+      <hr />
+      <p>© Iqbal Birrul Walidain · Last updated 2025</p>
+    </footer>
+  </div>
+
+</body>
+</html>
